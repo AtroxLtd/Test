@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reganthomas.projectapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Drill1Screen" />
+        <activity android:name=".Drill2Screen" />
+        <activity android:name=".Drill3Screen" />
+        <activity android:name=".Parts1Screen" />
+        <activity android:name=".Parts2Screen" />
+        <activity android:name=".Parts3Screen" />
+        <activity android:name=".D1S1PartScreen" />
+        <activity android:name=".D1S2PartScreen" />
+        <activity android:name=".D1S3PartScreen" />
+        <activity android:name=".D1S4PartScreen" />
+        <activity android:name=".D1S5PartScreen" />
+        <activity android:name=".D1S6PartScreen" />
+        <activity android:name=".D1S7PartScreen" />
+        <activity android:name=".D1S8PartScreen" />
+        <activity android:name=".D1S9PartScreen" />
+        <activity android:name=".D2S1PartScreen" />
+        <activity android:name=".D2S2PartScreen" />
+        <activity android:name=".D2S3PartScreen" />
+        <activity android:name=".D2S4PartScreen" />
+        <activity android:name=".D2S5PartScreen" />
+        <activity android:name=".D2S6PartScreen" />
+        <activity android:name=".D2S7PartScreen" />
+        <activity android:name=".D2S8PartScreen" />
+        <activity android:name=".D2S9PartScreen" />
+        <activity android:name=".D3S1PartScreen" />
+        <activity android:name=".D3S2PartScreen" />
+        <activity android:name=".D3S3PartScreen" />
+        <activity android:name=".D3S4PartScreen" />
+        <activity android:name=".D3S5PartScreen" />
+        <activity android:name=".D3S6PartScreen" />
+        <activity android:name=".D3S7PartScreen" />
+        <activity android:name=".D3S8PartScreen" />
+        <activity android:name=".D3S9PartScreen" />
+        <activity android:name=".D1FullScreen" />
+        <activity android:name=".D2FullScreen" />
+        <activity android:name=".D3FullScreen" />
+        <activity android:name=".D1PDFScreen" />
+        <activity android:name=".D2PDFScreen" />
+        <activity android:name=".D3PDFScreen" />
+        <activity android:name=".Calc1Screen" />
+        <activity android:name=".Calc5Screen" />
+        <activity android:name=".Calc4Screen" />
+        <activity android:name=".Calc2Screen" />
+        <activity android:name=".Calc3Screen" />
+        <activity android:name=".DrillScreen" />
+        <activity android:name=".CameraScreen" />
+        <activity android:name=".CalcScreen" />
+        <activity android:name=".NewsScreen" />
+        <activity android:name=".AtroxScreen" />
+        <activity android:name=".SettingScreen" />
+        <activity android:name=".News1Screen" />
+        <activity android:name=".News2Screen" />
+        <activity android:name=".News3Screen"></activity>
+    </application>
+
+</manifest>
